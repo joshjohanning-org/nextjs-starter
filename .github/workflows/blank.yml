@@ -36,4 +36,6 @@ jobs:
         run: |
           npm run build
       - run: ls -R
+      - run: swa --help
+      - run: swa deploy --help
       - run: swa deploy ./out --deployment-token ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
