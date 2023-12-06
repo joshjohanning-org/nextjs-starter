@@ -62,4 +62,6 @@ The npm `build` script runs commands to not only build the application, but also
 },
 ```
 
+test
+
 > **Note:** If you use the [Azure Static Web Apps CLI](https://docs.microsoft.com/azure/static-web-apps/local-development), copy the *staticwebapp.config.json* file to the *out* folder, and start the CLI from the *out* folder.
